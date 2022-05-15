@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+*:not(i) {
+    font-family: 'Tajawal', sans-serif ;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Tajawal', sans-serif;
+	font-weight: bold;
+}
+html, body {
+	direction: rtl;
+	text-align: right;
+}
+header nav .links-list > ul .list-item {
+	margin-left: 30px;
+	margin-right: 0;
+}
+header nav .links-list > ul .list-item:last-child {
+    margin-left: 0;
+}
+header nav .links-list > ul .list-item .link {
+	font-weight: bold;
+}
+.dropdown .droplist {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item.dropdown .link i  {
+	margin-right: 2px;
+	margin-left: 0;
+}
+header nav .call-btn a i {
+	margin-left: 5px;
+	margin-right: 0;
+}
+header nav .links-list > ul .list-item li a {
+	font-size: 16px;
+}
+
+.main-section .carousel-btn-block .carousel-btn.right-btn {
+    left: 30px;
+	right: auto;
+}
+.main-section .carousel-btn-block .carousel-btn.left-btn {
+    right: 30px;
+	left: auto;
+}
+
+.about-section .about-img {
+    padding-right: 40px;
+	padding-left: 0;
+    margin-right: 30px;
+	margin-left: 0;
+}
+.about-section .about-img i {
+	right: -55px;
+	left: auto;
+}
+.about-section .about-img:after {
+	left: 40px;
+	right: 0;
+}
+.about-area .about-list li i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.about-section .about-progress .progress-title .percent {
+	float: left;
+}
+.doctors-section .doctors-items .content i {
+	left: 20px;
+	right: auto;
+}
+.page-details-area .sdetails-content .s-list li i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.contact-page .contact-content .contact-list li i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.contact-page .contact-content .social-list li {
+	margin-right: 10px;
+	margin-left: 0;
+}
+.contact-page .contact-content .social-list li:first-child {
+    margin-right: 0;
+}
+footer .footer-social .social-list li {
+    margin-right: 20px;
+	margin-left: 0;
+}
+footer .footer-social .social-list li:first-child {
+	margin-right: 0;
+}
+
+
+#scroll-top {
+	left: 17px;
+	right: auto;
+}
+.title-part:before {
+	right: 0;
+	left: auto;
+}
+.fa-arrow-left:before {
+    content: "\f061";
+}
+.fa-arrow-right:before {
+    content: "\f060";
+}
+.fa-chevron-right:before {
+    content: "\f053";
+}
+.fa-chevron-left:before {
+    content: "\f054";
+}
+.fa-chevron-circle-right:before {
+    content: "\f137";
+}
+.fa-chevron-circle-left:before {
+    content: "\f138";
+}
+.fa-caret-right:before {
+    content: "\f0d9";
+}
+.fa-caret-left:before {
+    content: "\f0da";
+}
+.text-left {
+    text-align: right!important;
+}
+.text-right {
+    text-align: left!important;
+}
+.owl-carousel .owl-stage-outer {
+	direction: ltr;
+}
+
+@media(min-width: 991px) and (max-width: 1199px) {
+	header nav .links-list > ul .list-item {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.offset-lg-1 {
+		margin-right: 8.333333%;
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 991px) {
+	header nav .call-btn {
+		margin-right: auto;
+		margin-left: 15px;
+	}
+
+    header nav .links-list {
+        right: 0;
+        left: auto;
+    }
+}
+@media (min-width: 768px) {
+	.text-md-right {
+		text-align: left!important;
+	}
+}
+@media(max-width: 575px) {
+	.about-section .about-img {
+		padding-right: 20px;
+		padding-left: 0;
+	}
+	.about-section .about-img i {
+		right: -35px;
+		left: auto;
+	}
+}
